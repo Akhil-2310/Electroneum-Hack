@@ -47,15 +47,13 @@ For the gameplay design, we’ve incorporated game designs from many trending tr
 
 1. Configure the `.env` file for your wallet connector. e.g. Dynamic etc
 
-2. Run `npm install`
+2. Go to `app` folder
 
-3. Go to `app` folder
+3. Run `npm install`
 
 4. Run `npm run dev`
 
 5. Go to browser http://localhost:3000
 
-## Telegram Mini App
 
-- To Access the Mini App please access @dynamic_eth_singapore_bot and run /start
 
