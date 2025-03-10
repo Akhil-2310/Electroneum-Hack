@@ -20,16 +20,16 @@
 
 ### Beginning the Game
 
-- Players join Silent Wars by staking $ETH. This initial staking process is crucial for determining the direction of the game's governance on censorship resistance.
+- Players join Silent Wars by staking $ETN. This initial staking process is crucial for determining the direction of the game's governance on censorship resistance.
 - Players can choose from three factions:
   - **Cypherpunk**: Advocates for anti-censorship and privacy.
-  - **Moloch**: Supports regulatory compliance and the recognition of ETH as digital gold.
+  - **Moloch**: Supports regulatory compliance and the recognition of ETN as digital gold.
   - **Memecoin**: Prioritizes storytelling and price speculation, disregarding regulatory concerns.
 - The faction’s resources and member count are hidden on-chain when players make their choice, ensuring an element of strategy and mystery.
 
 ### Resource Acquisition
 
-- Players must stake ETH to earn staking points, which are used to gather resources (farming), battle monsters (fighting), and compete against other players (PvP).
+- Players must stake ETN to earn staking points, which are used to gather resources (farming), battle monsters (fighting), and compete against other players (PvP).
 - These activities are essential for building power within the game and advancing your faction’s goals.
 
 ### Governance
