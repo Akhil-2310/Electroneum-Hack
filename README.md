@@ -39,7 +39,7 @@
 
 # Tech Stack
 
-This project uses reactJS and PhaserJS (game animations) for the frontend and can be accessed from Telegram mini-app or browsers. Login is done with Dynamic. We have also integrated MACI voting mechanics within the game. For the smart contracts, we have used remix for the multi chain deployment. Players can either stake or use World ID for ensuring a fairer voting.
+This project uses reactJS and PhaserJS (game animations) for the frontend and can be accessed from browsers. Login is done with Dynamic. For the smart contracts, we have used remix for the multi chain deployment.
 
 For the gameplay design, we’ve incorporated game designs from many trending traditional games, and. we designed our game with the Public Goods values in mind. We want players to be constantly faced with options, and these options are in most times best be done with collective minds.
 
