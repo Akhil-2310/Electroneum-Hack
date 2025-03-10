@@ -308,7 +308,7 @@ export default function HomePage() {
                 className="bg-transparent text-2xl w-full outline-none"
               />
               <div className="flex items-center">
-                <span>ETH</span>
+                <span>ETN</span>
               </div>
             </div>
             <button
@@ -317,32 +317,6 @@ export default function HomePage() {
             >
               Stake
             </button>
-            <div className="mb-4 bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-full w-full text-lg tracking-wider">
-              <IDKitWidget
-                app_id="app_d3efa40cc232633d00a3c271facefa90" // obtained from the Developer Portal
-                action="silent-wars" // this is your action name from the Developer Portal
-                signal={address}
-                onSuccess={async (result)=> {
-                  console.log("result", result)
-                  const response = await fetch("/api/world-id", {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ proof:result, signal: address }),
-                });
-                console.log("response", response)
-        
-                  handleNextScreen()
-                }}
-                onError={(error)=> {
-                  console.log("error", error)
-                }}
-                // verification_level="device" // minimum verification level accepted, defaults to "orb"
-              >
-                {({ open }) => <button onClick={open}>Verify with World ID</button>}
-              </IDKitWidget>
-            </div>
           </div>
         )}
 
